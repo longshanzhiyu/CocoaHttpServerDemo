@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D92B6B37C18D00231C09560 /* libPods-ZOOM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119ADD1D95E358FE1499CF89 /* libPods-ZOOM.a */; };
+		4819302F1FCD4FF700B38734 /* Web in Resources */ = {isa = PBXBuildFile; fileRef = 489459EF1FCD4EB000652697 /* Web */; };
+		4819303B1FCD5FF700B38734 /* BGLocationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4819303A1FCD5FF700B38734 /* BGLocationConfig.m */; };
+		4819303C1FCD60F900B38734 /* BGTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 481930381FCD5F3000B38734 /* BGTask.m */; };
+		4819303D1FCD60FF00B38734 /* BGLogation.m in Sources */ = {isa = PBXBuildFile; fileRef = 481930361FCD5F3000B38734 /* BGLogation.m */; };
+		93D3F3F11CEEF53A00A5FC59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F3F01CEEF53A00A5FC59 /* main.m */; };
+		93D3F3F41CEEF53A00A5FC59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F3F31CEEF53A00A5FC59 /* AppDelegate.m */; };
+		93D3F3FC1CEEF53A00A5FC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3FB1CEEF53A00A5FC59 /* Assets.xcassets */; };
+		93D3F3FF1CEEF53A00A5FC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3FD1CEEF53A00A5FC59 /* LaunchScreen.storyboard */; };
+		93D3F40A1CEEF53A00A5FC59 /* ZOOMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4091CEEF53A00A5FC59 /* ZOOMTests.m */; };
+		93D3F4151CEEF53A00A5FC59 /* ZOOMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4141CEEF53A00A5FC59 /* ZOOMUITests.m */; };
+		93D3F4261CEEF8C600A5FC59 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F4281CEEF8C600A5FC59 /* Localizable.strings */; };
+		93D3F4291CEEF8CC00A5FC59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F42B1CEEF8CC00A5FC59 /* InfoPlist.strings */; };
+		93D3F42F1CEEFAFB00A5FC59 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F42E1CEEFAFB00A5FC59 /* MainViewController.m */; };
+		A86EF975314C22F5811F1882 /* libPods-ZOOMTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C05683D8F89F3255DBBE5E74 /* libPods-ZOOMTests.a */; };
+		CE6CC633907EF366EB1B9803 /* libPods-ZOOMUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF45426D2212A5E5DE2C05E7 /* libPods-ZOOMUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93D3F4061CEEF53A00A5FC59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93D3F3E41CEEF53A00A5FC59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D3F3EB1CEEF53A00A5FC59;
+			remoteInfo = ZOOM;
+		};
+		93D3F4111CEEF53A00A5FC59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93D3F3E41CEEF53A00A5FC59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93D3F3EB1CEEF53A00A5FC59;
+			remoteInfo = ZOOM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		119ADD1D95E358FE1499CF89 /* libPods-ZOOM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZOOM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		481930351FCD5F3000B38734 /* BGLogation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGLogation.h; sourceTree = "<group>"; };
+		481930361FCD5F3000B38734 /* BGLogation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGLogation.m; sourceTree = "<group>"; };
+		481930371FCD5F3000B38734 /* BGTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGTask.h; sourceTree = "<group>"; };
+		481930381FCD5F3000B38734 /* BGTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGTask.m; sourceTree = "<group>"; };
+		481930391FCD5FF700B38734 /* BGLocationConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGLocationConfig.h; sourceTree = "<group>"; };
+		4819303A1FCD5FF700B38734 /* BGLocationConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGLocationConfig.m; sourceTree = "<group>"; };
+		489459EF1FCD4EB000652697 /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Web; sourceTree = "<group>"; };
+		5B91189756C49B6D863FD45F /* Pods-ZOOMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZOOMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZOOMTests/Pods-ZOOMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B9F905F8EADBB02DD1ECEF2 /* Pods-ZOOMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZOOMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZOOMUITests/Pods-ZOOMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93D3F3EC1CEEF53A00A5FC59 /* ZOOM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZOOM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D3F3F01CEEF53A00A5FC59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93D3F3F21CEEF53A00A5FC59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93D3F3F31CEEF53A00A5FC59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93D3F3FB1CEEF53A00A5FC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93D3F3FE1CEEF53A00A5FC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93D3F4001CEEF53A00A5FC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D3F4051CEEF53A00A5FC59 /* ZOOMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZOOMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D3F4091CEEF53A00A5FC59 /* ZOOMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOOMTests.m; sourceTree = "<group>"; };
+		93D3F40B1CEEF53A00A5FC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D3F4101CEEF53A00A5FC59 /* ZOOMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZOOMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D3F4141CEEF53A00A5FC59 /* ZOOMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOOMUITests.m; sourceTree = "<group>"; };
+		93D3F4161CEEF53A00A5FC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D3F4271CEEF8C600A5FC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		93D3F42A1CEEF8CC00A5FC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93D3F42D1CEEFAFB00A5FC59 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		93D3F42E1CEEFAFB00A5FC59 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		93D3F49C1CEEFCCD00A5FC59 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		93D3F49D1CEEFD6600A5FC59 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		971EC3CAE22F70E4F4EF4099 /* Pods-ZOOMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZOOMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZOOMUITests/Pods-ZOOMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4EFC039BDE0ECD53BD510FB /* Pods-ZOOM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZOOM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZOOM/Pods-ZOOM.debug.xcconfig"; sourceTree = "<group>"; };
+		C05683D8F89F3255DBBE5E74 /* libPods-ZOOMTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZOOMTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E67384836CB6D09A2A36E9F9 /* Pods-ZOOM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZOOM.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZOOM/Pods-ZOOM.release.xcconfig"; sourceTree = "<group>"; };
+		EF45426D2212A5E5DE2C05E7 /* libPods-ZOOMUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZOOMUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41520B4742A073CA311F999 /* Pods-ZOOMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZOOMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZOOMTests/Pods-ZOOMTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93D3F3E91CEEF53A00A5FC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D92B6B37C18D00231C09560 /* libPods-ZOOM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D3F4021CEEF53A00A5FC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86EF975314C22F5811F1882 /* libPods-ZOOMTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D3F40D1CEEF53A00A5FC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6CC633907EF366EB1B9803 /* libPods-ZOOMUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4319616E74D85E9CEF4E2797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4EFC039BDE0ECD53BD510FB /* Pods-ZOOM.debug.xcconfig */,
+				E67384836CB6D09A2A36E9F9 /* Pods-ZOOM.release.xcconfig */,
+				5B91189756C49B6D863FD45F /* Pods-ZOOMTests.debug.xcconfig */,
+				F41520B4742A073CA311F999 /* Pods-ZOOMTests.release.xcconfig */,
+				971EC3CAE22F70E4F4EF4099 /* Pods-ZOOMUITests.debug.xcconfig */,
+				7B9F905F8EADBB02DD1ECEF2 /* Pods-ZOOMUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		481930341FCD5F3000B38734 /* BGLogation */ = {
+			isa = PBXGroup;
+			children = (
+				481930351FCD5F3000B38734 /* BGLogation.h */,
+				481930361FCD5F3000B38734 /* BGLogation.m */,
+				481930391FCD5FF700B38734 /* BGLocationConfig.h */,
+				4819303A1FCD5FF700B38734 /* BGLocationConfig.m */,
+				481930371FCD5F3000B38734 /* BGTask.h */,
+				481930381FCD5F3000B38734 /* BGTask.m */,
+			);
+			path = BGLogation;
+			sourceTree = "<group>";
+		};
+		93D3F3E31CEEF53A00A5FC59 = {
+			isa = PBXGroup;
+			children = (
+				93D3F3EE1CEEF53A00A5FC59 /* ZOOM */,
+				93D3F4081CEEF53A00A5FC59 /* ZOOMTests */,
+				93D3F4131CEEF53A00A5FC59 /* ZOOMUITests */,
+				93D3F3ED1CEEF53A00A5FC59 /* Products */,
+				4319616E74D85E9CEF4E2797 /* Pods */,
+				DBD79371DCA1D681BA0A777F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93D3F3ED1CEEF53A00A5FC59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93D3F3EC1CEEF53A00A5FC59 /* ZOOM.app */,
+				93D3F4051CEEF53A00A5FC59 /* ZOOMTests.xctest */,
+				93D3F4101CEEF53A00A5FC59 /* ZOOMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93D3F3EE1CEEF53A00A5FC59 /* ZOOM */ = {
+			isa = PBXGroup;
+			children = (
+				93D3F3F21CEEF53A00A5FC59 /* AppDelegate.h */,
+				93D3F3F31CEEF53A00A5FC59 /* AppDelegate.m */,
+				93D3F42C1CEEFADB00A5FC59 /* Project */,
+				481930341FCD5F3000B38734 /* BGLogation */,
+				93D3F3FB1CEEF53A00A5FC59 /* Assets.xcassets */,
+				93D3F3FD1CEEF53A00A5FC59 /* LaunchScreen.storyboard */,
+				93D3F4001CEEF53A00A5FC59 /* Info.plist */,
+				93D3F4281CEEF8C600A5FC59 /* Localizable.strings */,
+				93D3F42B1CEEF8CC00A5FC59 /* InfoPlist.strings */,
+				93D3F3EF1CEEF53A00A5FC59 /* Supporting Files */,
+			);
+			path = ZOOM;
+			sourceTree = "<group>";
+		};
+		93D3F3EF1CEEF53A00A5FC59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93D3F49C1CEEFCCD00A5FC59 /* Header.h */,
+				93D3F49D1CEEFD6600A5FC59 /* PrefixHeader.pch */,
+				93D3F3F01CEEF53A00A5FC59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93D3F4081CEEF53A00A5FC59 /* ZOOMTests */ = {
+			isa = PBXGroup;
+			children = (
+				93D3F4091CEEF53A00A5FC59 /* ZOOMTests.m */,
+				93D3F40B1CEEF53A00A5FC59 /* Info.plist */,
+			);
+			path = ZOOMTests;
+			sourceTree = "<group>";
+		};
+		93D3F4131CEEF53A00A5FC59 /* ZOOMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93D3F4141CEEF53A00A5FC59 /* ZOOMUITests.m */,
+				93D3F4161CEEF53A00A5FC59 /* Info.plist */,
+			);
+			path = ZOOMUITests;
+			sourceTree = "<group>";
+		};
+		93D3F42C1CEEFADB00A5FC59 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				489459EF1FCD4EB000652697 /* Web */,
+				93D3F42D1CEEFAFB00A5FC59 /* MainViewController.h */,
+				93D3F42E1CEEFAFB00A5FC59 /* MainViewController.m */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		DBD79371DCA1D681BA0A777F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				119ADD1D95E358FE1499CF89 /* libPods-ZOOM.a */,
+				C05683D8F89F3255DBBE5E74 /* libPods-ZOOMTests.a */,
+				EF45426D2212A5E5DE2C05E7 /* libPods-ZOOMUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93D3F3EB1CEEF53A00A5FC59 /* ZOOM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D3F4191CEEF53A00A5FC59 /* Build configuration list for PBXNativeTarget "ZOOM" */;
+			buildPhases = (
+				0B4C361F63AC7F02147F7D5F /* [CP] Check Pods Manifest.lock */,
+				93D3F3E81CEEF53A00A5FC59 /* Sources */,
+				93D3F3E91CEEF53A00A5FC59 /* Frameworks */,
+				93D3F3EA1CEEF53A00A5FC59 /* Resources */,
+				8FD9309383434F7AAA87177B /* [CP] Embed Pods Frameworks */,
+				B0A90B6ADB432EA072BE0266 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZOOM;
+			productName = ZOOM;
+			productReference = 93D3F3EC1CEEF53A00A5FC59 /* ZOOM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93D3F4041CEEF53A00A5FC59 /* ZOOMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D3F41C1CEEF53A00A5FC59 /* Build configuration list for PBXNativeTarget "ZOOMTests" */;
+			buildPhases = (
+				ECCD93F450D3E38733F1726B /* [CP] Check Pods Manifest.lock */,
+				93D3F4011CEEF53A00A5FC59 /* Sources */,
+				93D3F4021CEEF53A00A5FC59 /* Frameworks */,
+				93D3F4031CEEF53A00A5FC59 /* Resources */,
+				410E3E94A4BF0D40380DB911 /* [CP] Embed Pods Frameworks */,
+				D5C7E147677AC6B2B908B00D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93D3F4071CEEF53A00A5FC59 /* PBXTargetDependency */,
+			);
+			name = ZOOMTests;
+			productName = ZOOMTests;
+			productReference = 93D3F4051CEEF53A00A5FC59 /* ZOOMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93D3F40F1CEEF53A00A5FC59 /* ZOOMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93D3F41F1CEEF53A00A5FC59 /* Build configuration list for PBXNativeTarget "ZOOMUITests" */;
+			buildPhases = (
+				948AB9B5F217E05BFEC1B812 /* [CP] Check Pods Manifest.lock */,
+				93D3F40C1CEEF53A00A5FC59 /* Sources */,
+				93D3F40D1CEEF53A00A5FC59 /* Frameworks */,
+				93D3F40E1CEEF53A00A5FC59 /* Resources */,
+				55172C2BEF45F3CC01EC5D83 /* [CP] Embed Pods Frameworks */,
+				F366B90A867D208FDB30DC0B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93D3F4121CEEF53A00A5FC59 /* PBXTargetDependency */,
+			);
+			name = ZOOMUITests;
+			productName = ZOOMUITests;
+			productReference = 93D3F4101CEEF53A00A5FC59 /* ZOOMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93D3F3E41CEEF53A00A5FC59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Weshape3D;
+				TargetAttributes = {
+					93D3F3EB1CEEF53A00A5FC59 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EZRWM7P5C6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					93D3F4041CEEF53A00A5FC59 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 93D3F3EB1CEEF53A00A5FC59;
+					};
+					93D3F40F1CEEF53A00A5FC59 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 93D3F3EB1CEEF53A00A5FC59;
+					};
+				};
+			};
+			buildConfigurationList = 93D3F3E71CEEF53A00A5FC59 /* Build configuration list for PBXProject "ZOOM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93D3F3E31CEEF53A00A5FC59;
+			productRefGroup = 93D3F3ED1CEEF53A00A5FC59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93D3F3EB1CEEF53A00A5FC59 /* ZOOM */,
+				93D3F4041CEEF53A00A5FC59 /* ZOOMTests */,
+				93D3F40F1CEEF53A00A5FC59 /* ZOOMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93D3F3EA1CEEF53A00A5FC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4819302F1FCD4FF700B38734 /* Web in Resources */,
+				93D3F3FF1CEEF53A00A5FC59 /* LaunchScreen.storyboard in Resources */,
+				93D3F4261CEEF8C600A5FC59 /* Localizable.strings in Resources */,
+				93D3F3FC1CEEF53A00A5FC59 /* Assets.xcassets in Resources */,
+				93D3F4291CEEF8CC00A5FC59 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D3F4031CEEF53A00A5FC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D3F40E1CEEF53A00A5FC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B4C361F63AC7F02147F7D5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		410E3E94A4BF0D40380DB911 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZOOMTests/Pods-ZOOMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55172C2BEF45F3CC01EC5D83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZOOMUITests/Pods-ZOOMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD9309383434F7AAA87177B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZOOM/Pods-ZOOM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948AB9B5F217E05BFEC1B812 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A90B6ADB432EA072BE0266 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZOOM/Pods-ZOOM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5C7E147677AC6B2B908B00D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZOOMTests/Pods-ZOOMTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECCD93F450D3E38733F1726B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F366B90A867D208FDB30DC0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZOOMUITests/Pods-ZOOMUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93D3F3E81CEEF53A00A5FC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4819303D1FCD60FF00B38734 /* BGLogation.m in Sources */,
+				4819303C1FCD60F900B38734 /* BGTask.m in Sources */,
+				93D3F3F41CEEF53A00A5FC59 /* AppDelegate.m in Sources */,
+				4819303B1FCD5FF700B38734 /* BGLocationConfig.m in Sources */,
+				93D3F42F1CEEFAFB00A5FC59 /* MainViewController.m in Sources */,
+				93D3F3F11CEEF53A00A5FC59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D3F4011CEEF53A00A5FC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D3F40A1CEEF53A00A5FC59 /* ZOOMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D3F40C1CEEF53A00A5FC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D3F4151CEEF53A00A5FC59 /* ZOOMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93D3F4071CEEF53A00A5FC59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93D3F3EB1CEEF53A00A5FC59 /* ZOOM */;
+			targetProxy = 93D3F4061CEEF53A00A5FC59 /* PBXContainerItemProxy */;
+		};
+		93D3F4121CEEF53A00A5FC59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93D3F3EB1CEEF53A00A5FC59 /* ZOOM */;
+			targetProxy = 93D3F4111CEEF53A00A5FC59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93D3F3FD1CEEF53A00A5FC59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D3F3FE1CEEF53A00A5FC59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		93D3F4281CEEF8C600A5FC59 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D3F4271CEEF8C600A5FC59 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		93D3F42B1CEEF8CC00A5FC59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93D3F42A1CEEF8CC00A5FC59 /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93D3F4171CEEF53A00A5FC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93D3F4181CEEF53A00A5FC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93D3F41A1CEEF53A00A5FC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EFC039BDE0ECD53BD510FB /* Pods-ZOOM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EZRWM7P5C6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = ZOOM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzlh.jgrcapp299;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		93D3F41B1CEEF53A00A5FC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67384836CB6D09A2A36E9F9 /* Pods-ZOOM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EZRWM7P5C6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = ZOOM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzlh.jgrcapp299;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		93D3F41D1CEEF53A00A5FC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B91189756C49B6D863FD45F /* Pods-ZOOMTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZOOMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weshape3d.ZOOMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZOOM.app/ZOOM";
+			};
+			name = Debug;
+		};
+		93D3F41E1CEEF53A00A5FC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41520B4742A073CA311F999 /* Pods-ZOOMTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZOOMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weshape3d.ZOOMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZOOM.app/ZOOM";
+			};
+			name = Release;
+		};
+		93D3F4201CEEF53A00A5FC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971EC3CAE22F70E4F4EF4099 /* Pods-ZOOMUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZOOMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weshape3d.ZOOMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZOOM;
+			};
+			name = Debug;
+		};
+		93D3F4211CEEF53A00A5FC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9F905F8EADBB02DD1ECEF2 /* Pods-ZOOMUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ZOOMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weshape3d.ZOOMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZOOM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93D3F3E71CEEF53A00A5FC59 /* Build configuration list for PBXProject "ZOOM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D3F4171CEEF53A00A5FC59 /* Debug */,
+				93D3F4181CEEF53A00A5FC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D3F4191CEEF53A00A5FC59 /* Build configuration list for PBXNativeTarget "ZOOM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D3F41A1CEEF53A00A5FC59 /* Debug */,
+				93D3F41B1CEEF53A00A5FC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D3F41C1CEEF53A00A5FC59 /* Build configuration list for PBXNativeTarget "ZOOMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D3F41D1CEEF53A00A5FC59 /* Debug */,
+				93D3F41E1CEEF53A00A5FC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93D3F41F1CEEF53A00A5FC59 /* Build configuration list for PBXNativeTarget "ZOOMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D3F4201CEEF53A00A5FC59 /* Debug */,
+				93D3F4211CEEF53A00A5FC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93D3F3E41CEEF53A00A5FC59 /* Project object */;
+}
